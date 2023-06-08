@@ -62,7 +62,9 @@ public class ImprimirNumeros {
         System.out.println("------------");
         
         for (int numero : arr) {
-            System.out.println("Numero: " + numero);
+            if (numero%2 == 0) {
+                System.out.println("Numero: " + numero);
+            }
         }
         
         System.out.println("------------");
